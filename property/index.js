@@ -154,6 +154,7 @@ module.exports = yeoman.Base.extend({
 
       if (answers.defaultValue === '') {
         answers.defaultValue = null;
+        return;
       }
 
       try {
